@@ -1,4 +1,3 @@
-window.onload = function(){
 var alphabet = "abcdefghijklmnopqrstuvwxyz";
 
 var mainArray = [];//format = {display:$thingToDisplay, ret: $someFunction()}, the function either returns a char or "" if it does weird bg stuff
@@ -93,6 +92,8 @@ function formatArray(arr){
 }
 
 function clearVal(){
+	var old = document.getElementById('splinput').innerHTML;
 	document.getElementById('splinput').innerHTML = "";
+	var p = document.body.appendChild(document.createElement('p'));
+	p.innerHTML = old;
 }
-};
