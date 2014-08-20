@@ -51,6 +51,7 @@ function go(num){//0-2
 
 	updateDisplay();
 
+	document.getElementsByTagName('li')[num].className = "";//reset anything before
 	document.getElementsByTagName('li')[num].className = "animate";
 	setTimeout(function(){
 		document.getElementsByTagName('li')[num].className = "";
