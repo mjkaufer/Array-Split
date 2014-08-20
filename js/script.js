@@ -95,5 +95,6 @@ function clearVal() {
     var old = document.getElementById('splinput').innerHTML;
     document.getElementById('splinput').innerHTML = "";
     var p = document.body.appendChild(document.createElement('p'));
+    p.className = "done";
     p.innerHTML = old;
 }

@@ -51,9 +51,10 @@ li:nth-of-type(3):before {
 ul {
     padding-left: 0;
 }
-p {
-    display: inline-block;
-}
 #splinput {
     color: #1BA39C;
+}
+.done {
+    color: #E67E22;
+    font-weight: bold;
 }
